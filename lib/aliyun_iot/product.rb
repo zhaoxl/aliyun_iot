@@ -91,6 +91,10 @@ module AliyunIot
     def rrpc(params = {})
       execute params, 'RRpc'
     end
+    
+    def invoke_thing_service(params = {})
+      execute params, 'InvokeThingService'
+    end
 
     private
 
