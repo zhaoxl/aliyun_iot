@@ -95,6 +95,10 @@ module AliyunIot
     def invoke_thing_service(params = {})
       execute params, 'InvokeThingService'
     end
+    
+    def query_device_detail(params = {})
+      execute params, 'InvokeThingService'
+    end
 
     private
 
