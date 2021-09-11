@@ -97,7 +97,7 @@ module AliyunIot
     end
     
     def query_device_detail(params = {})
-      execute params, 'RegisterDevice'
+      execute params, 'QueryDeviceDetail'
     end
 
     private
